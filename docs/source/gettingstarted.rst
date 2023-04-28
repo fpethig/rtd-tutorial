@@ -16,6 +16,16 @@ Prerequisites
 * GIT 2.36.0.windows.1
 * Docker
 
+..  code-block:: none
+    :caption: Page tree of directory :file:`vendor/composer`
+
+    $ tree vendor/composer
+    ├── ClassLoader.php
+    ├── LICENSE
+    ├── autoload_classmap.php
+    ├── ...
+    └── installed.json
+    
 .. code-block:: none
    :caption: Structure of *AASPortal*
    aasportal
