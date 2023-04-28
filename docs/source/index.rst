@@ -1,13 +1,12 @@
-Welcome to Lumache's documentation!
-===================================
+AASPortal
+=========
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**AASPortal** is a Node.js based web portal for the visualization and management of Asset Administration Shells (AAS). The implementation uses the concepts of the document "Details of the Asset Administration Shell" published on <www.plattform-i40.de>`_ which is licensed under Creative Commons CC BY 4.0. 
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Check out the :doc:`getting started` section to learn how to setup Visual Studio Code and start using and developing the *AASPortal*,
+learn more about the :doc:`architecture`, and
+check out the :dic:`usage` section for available search filters for AAS and which Endpoints can be connected to the *AASPortal*.
+
 
 .. note::
 
@@ -18,7 +17,9 @@ Contents
 
 .. toctree::
 
-   usage
-   api
-
-Lumache has its documentation hosted on Read the Docs.
+   getting started
+   arch
+   use
+   
+Copyright (c) 2019-2023 Fraunhofer IOSB-INA Lemgo, eine rechtlich nicht selbstaendige Einrichtung der Fraunhofer-Gesellschaft
+zur Foerderung der angewandten Forschung e.V.
