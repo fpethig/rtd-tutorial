@@ -34,11 +34,14 @@ Setup Visual Studio Code
 The preferred development environment is Visual Studio Code.
 Clone *AASPortal*'s GIT repository. Open aasportal in Visual Studio Code. In a terminal window execute the the following commands:
 
-    >>> npm install
+.. code-block:: console
+   
+   npm install
 
 and
+.. code-block:: console
 
-    >>> npm run build -ws
+   npm run build -ws
 
 restart Visual Studio Code.
 
