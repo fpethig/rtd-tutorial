@@ -45,7 +45,9 @@ restart Visual Studio Code.
 Start AASPortal
 ---------------
 The following command creates and executes a composed Docker image:
+
 .. code-block:: console
+   
    npm run start
 
 Open one of the supported web browsers and go to the Web site:
