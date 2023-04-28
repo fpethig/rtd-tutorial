@@ -4,11 +4,15 @@ Filter AAS Collection
 ---------------------
 Display AAS in which a certain search text occurs. The search refers to the name, the identification and the endpoint type of the AAS.
 
-A search within the structure of an AAS is started if the search text begins with a `#`. It is possible to search for a specific model type with a specific name and, depending on the model type, a specific value. The search text has the following format:
+A search within the structure of an AAS is started if the search text begins with a :cobj-text:`#`. It is possible to search for a specific model type with a specific name and, depending on the model type, a specific value. The search text has the following format:
 
->>> \#\<abbreviation\>:\<idShort\>[=, !=, <, <=, >=, >]\<value\>
+.. code-block:: console
+
+   \#\<abbreviation\>:\<idShort\>[=, !=, <, <=, >=, >]\<value\>
  
->>>> \#\<abbreviation\>:\<idShort\>=\<min\>...\<max\>
+.. code-block:: console
+ 
+   \#\<abbreviation\>:\<idShort\>=\<min\>...\<max\>
 
 .. code-block:: none
    :caption: Supported model types
