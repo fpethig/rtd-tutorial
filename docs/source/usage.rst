@@ -8,11 +8,11 @@ A search within the structure of an AAS is started if the search text begins wit
 
 .. code-block:: console
 
-   \#\<abbreviation\>:\<idShort\>[=, !=, <, <=, >=, >]\<value\>
+   #<abbreviation>:<idShort>[=, !=, <, <=, >=, >]<value>
  
 .. code-block:: console
  
-   \#\<abbreviation\>:\<idShort\>=\<min\>...\<max\>
+   #<abbreviation>:<idShort>=<min>...<max>
 
 .. code-block:: none
    :caption: Supported model types
