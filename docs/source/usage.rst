@@ -57,31 +57,31 @@ All AAS that contain at least one operation element:
 
    #Opr
 
-All AAS that contain at least one submodel with the name :cobj-text:`Nameplate`:
+All AAS that contain at least one submodel with the name :code:`Nameplate`:
 
 .. code-block:: console
 
    #SM:Nameplate
 
-All AAS that contain at least one property with the value :cobj-text:`SmartFactoryOWL`:
+All AAS that contain at least one property with the value :code:`SmartFactoryOWL`:
 
 .. code-block:: console
 
    #Prop=SmartFactoryOWL
 
-All AAS that contain at least one property with the name :cobj-text:`Producer` and the value :cobj-text:`SmartFactoryOWL`:
+All AAS that contain at least one property with the name :code:`Producer` and the value :code:`SmartFactoryOWL`:
 
 .. code-block:: console
 
    #Prop:producer=SmartFactoryOWL
 
-All AAS where :cobj-text:`RotationSpeed` is greater or equal then :cobj-text:`5000`:
+All AAS where :code:`RotationSpeed` is greater or equal then :code:`5000`:
 
 .. code-block:: console
 
    #Prop=RotationSpeed >= 5000
 
-All AAS where :cobj-text:`ProductionDate` is between :cobj-text:`12/24/2022` and :cobj-text:`12/31/2022`:
+All AAS where :code:`ProductionDate` is between :code:`12/24/2022` and :code:`12/31/2022`:
 
 .. code-block:: console
 
