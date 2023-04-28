@@ -14,6 +14,6 @@ Contents
 
 .. toctree::
 
-   getting started
-   arch
-   use
+   gettingstarted
+   architecture
+   usage
