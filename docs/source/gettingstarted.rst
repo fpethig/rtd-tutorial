@@ -39,6 +39,7 @@ Clone *AASPortal*'s GIT repository. Open aasportal in Visual Studio Code. In a t
    npm install
 
 and
+
 .. code-block:: console
 
    npm run build -ws
