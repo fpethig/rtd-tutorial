@@ -16,16 +16,6 @@ Prerequisites
 * GIT 2.36.0.windows.1
 * Docker
 
-..  code-block:: none
-    :caption: Page tree of directory
-
-    $ tree vendor/composer
-    ├── ClassLoader.php
-    ├── LICENSE
-    ├── autoload_classmap.php
-    ├── ...
-    └── installed.json
-    
 .. code-block:: none
    :caption: Structure of *AASPortal*
    
@@ -39,9 +29,10 @@ Prerequisites
    │          └── package.json
    └── package.json
 
-## 1.2. Setup Visual Studio Code
+Setup Visual Studio Code
+------------------------
 The preferred development environment is Visual Studio Code.
-Clone the [*aasportal*](git@gitlab.cc-asp.fraunhofer.de:iosb-ina-big-data-plattformen/aasportal.git) GIT repository. Open *aasportal* in Visual Studio Code. In a terminal window execute the the following commands:
+Clone *AASPortal*'s GIT repository. Open aasportal in Visual Studio Code. In a terminal window execute the the following commands:
 
     >>> npm install
 
