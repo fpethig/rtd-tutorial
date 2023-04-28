@@ -17,6 +17,7 @@ Contents
    gettingstarted
    architecture
    usage
+   Test
 
 .. image:: https://readthedocs.org/projects/fpethig-rtd-tutorial/badge/?version=latest
     :target: https://fpethig-rtd-tutorial.readthedocs.io/en/latest/?badge=latest
