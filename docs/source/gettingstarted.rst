@@ -30,18 +30,18 @@ aasportal
 The preferred development environment is Visual Studio Code.
 Clone the [*aasportal*](git@gitlab.cc-asp.fraunhofer.de:iosb-ina-big-data-plattformen/aasportal.git) GIT repository. Open *aasportal* in Visual Studio Code. In a terminal window execute the the following commands:
 
-    > npm install
+    >>> npm install
 
 and
 
-    > npm run build -ws
+    >>> npm run build -ws
 
 restart Visual Studio Code.
 
 ## 1.3. Start AASPortal
 The following command creates and executes a composed Docker image:
 
-    > npm run start
+    >>> npm run start
 
 Open one of the supported web browsers and go to the Web site:
 
