@@ -46,33 +46,46 @@ A search within the structure of an AAS is started if the search text begins wit
    | SME          | SubmodelElement              |
    | View         | View                         |
 
-By using the logical operators `||` and `&&` several expressions can be combined in the search text.
+By using the logical operators :cobj:text:`||` and :cobj-text:`&&` several expressions can be combined in the search text.
 
-**Examples**
+Examples
+--------
 
-> All AAS that contain at least one operation element:
->
-> `#Opr`
+All AAS that contain at least one operation element:
 
-> All AAS that contain at least one submodel with the name 'Nameplate':
->
-> `#SM:Nameplate`
+.. code-block:: console
 
-> All AAS that contain at least one property with the value 'SmartFactory OWL':
->
-> `#Prop=SmartFactory OWL`
+   #Opr
 
-> All AAS that contain at least one property with the name 'Producer' and the value 'SmartFactory OWL':
->
-> `#Prop:producer=SmartFactory OWL`
+All AAS that contain at least one submodel with the name :cobj-text:`Nameplate`:
 
-> All AAS where 'RotationSpeed' is greater or equal then 5000:
->
-> `#Prop=RotationSpeed >= 5000`
+.. code-block:: console
 
-> All AAS where 'ProductionDate' is from 12/24/2022 until 12/31/2022:
->
-> `#Prop=ProductionDate = 12/24/2022...12/31/2022`
+   #SM:Nameplate
+
+All AAS that contain at least one property with the value :cobj-text:`SmartFactoryOWL`:
+
+.. code-block:: console
+
+   #Prop=SmartFactoryOWL
+
+All AAS that contain at least one property with the name :cobj-text:`Producer` and the value :cobj-text:`SmartFactoryOWL`:
+
+.. code-block:: console
+
+   #Prop:producer=SmartFactoryOWL
+
+All AAS where :cobj-text:`RotationSpeed` is greater or equal then :cobj-text:`5000`:
+
+.. code-block:: console
+
+   #Prop=RotationSpeed >= 5000
+
+All AAS where :cobj-text:`ProductionDate` is between :cobj-text:`12/24/2022` and :cobj-text:`12/31/2022`:
+
+.. code-block:: console
+
+   #Prop=ProductionDate = 12/24/2022...12/31/2022
 
 Endpoints
 ---------
