@@ -46,7 +46,7 @@ A search within the structure of an AAS is started if the search text begins wit
    | SME          | SubmodelElement              |
    | View         | View                         |
 
-By using the logical operators :cobj:text:`||` and :cobj-text:`&&` several expressions can be combined in the search text.
+By using the logical operators `||` and ``&&` several expressions can be combined in the search text.
 
 Examples
 --------
