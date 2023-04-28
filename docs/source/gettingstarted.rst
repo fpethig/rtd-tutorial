@@ -42,7 +42,8 @@ and
 
 restart Visual Studio Code.
 
-## 1.3. Start AASPortal
+Start AASPortal
+---------------
 The following command creates and executes a composed Docker image:
 
     >>> npm run start
