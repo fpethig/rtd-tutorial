@@ -17,7 +17,7 @@ Prerequisites
 * Docker
 
 ..  code-block:: none
-    :caption: Page tree of directory :file:`vendor/composer`
+    :caption: Page tree of directory
 
     $ tree vendor/composer
     ├── ClassLoader.php
@@ -28,7 +28,8 @@ Prerequisites
     
 .. code-block:: none
    :caption: Structure of *AASPortal*
-   aasportal
+   
+   tree aasportal
    ├── projects
    │     ├── aas-portal
    │     │     └── package.json
