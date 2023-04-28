@@ -16,17 +16,17 @@ Prerequisites
 * GIT 2.36.0.windows.1
 * Docker
 
-..  code-block:: none
-    :caption: Structure of *AASPortal*
-aasportal
-  ├── projects
-  │     ├── aas-portal
-  │     │     └── package.json
-  │     ├── aas-server
-  │     │     └── package.json
-  │     └── common
-  │          └── package.json
-  └── package.json
+.. code-block:: none
+   :caption: Structure of *AASPortal*
+   aasportal
+   ├── projects
+   │     ├── aas-portal
+   │     │     └── package.json
+   │     ├── aas-server
+   │     │     └── package.json
+   │     └── common
+   │          └── package.json
+   └── package.json
 
 ## 1.2. Setup Visual Studio Code
 The preferred development environment is Visual Studio Code.
