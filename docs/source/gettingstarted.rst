@@ -29,7 +29,7 @@ Prerequisites
 .. code-block:: none
    :caption: Structure of *AASPortal*
    
-   tree aasportal
+   aasportal
    ├── projects
    │     ├── aas-portal
    │     │     └── package.json
