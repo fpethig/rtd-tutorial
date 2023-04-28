@@ -17,3 +17,7 @@ Contents
    gettingstarted
    architecture
    usage
+
+.. image:: https://readthedocs.org/projects/fpethig-rtd-tutorial/badge/?version=latest
+    :target: https://fpethig-rtd-tutorial.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
