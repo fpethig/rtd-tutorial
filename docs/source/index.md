@@ -27,7 +27,4 @@ Architecture <architecture.md>
 :maxdepth: 3
 usage.md
 ```
-
-.. image:: https://readthedocs.org/projects/fpethig-rtd-tutorial/badge/?version=latest
-    :target: https://fpethig-rtd-tutorial.readthedocs.io/en/latest/?badge=latest
-    :alt: Documentation Status
+[https://readthedocs.org/projects/fpethig-rtd-tutorial/badge/?version=latest](https://fpethig-rtd-tutorial.readthedocs.io/en/latest/?badge=latest) "Documentation Status")
