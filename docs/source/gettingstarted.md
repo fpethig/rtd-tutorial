@@ -53,12 +53,12 @@ Alternatively, the application can be started by specifying an Asset Administrat
 
 `value` can be the AAS identification:
 
-> http://localhost/?id=http://boschrexroth.com/shells/0608842005/917004878
+    http://localhost/?id=http://boschrexroth.com/shells/0608842005/917004878
 
 the identification base64URL encoded
 
-> http://localhost/?id=aHR0cDovL2Jvc2NocmV4cm90aC5jb20vc2hlbGxzLzA2MDg4NDIwMDUvOTE3MDA0ODc4
+    http://localhost/?id=aHR0cDovL2Jvc2NocmV4cm90aC5jb20vc2hlbGxzLzA2MDg4NDIwMDUvOTE3MDA0ODc4
 
 or the name (idShort) of the AAS
 
-> http://localhost/?id=Bosch_NexoPistolGripNutrunner
+    http://localhost/?id=Bosch_NexoPistolGripNutrunner
