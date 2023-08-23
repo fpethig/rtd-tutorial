@@ -1,5 +1,5 @@
 # AASPortal
-![AASPortal Logo <](./images/AASPortal small.png "AASPortal Logo")
+![AASPortal Logo <](./images/AASPortal_small.png "AASPortal Logo")
 
 **AASPortal** is a Node.js based web portal for the visualization and management of Asset Administration Shells (AAS). The implementation uses the concepts of the document "Details of the Asset Administration Shell" published on https://www.plattform-i40.de which is licensed under Creative Commons CC BY 4.0. 
 
