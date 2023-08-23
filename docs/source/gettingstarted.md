@@ -1,8 +1,8 @@
 # Getting Started
 *AASPortal* is a mono-repository project. It is implemented using the *npm workspaces* concept. The project consists of three packages:
--aas-portal: The browser app of *AASPortal*.
--aas-server: The Node.js server app of *AASPortal*.
--common: Types and functions used by aas-portal and aas-server.
+- aas-portal: The browser app of *AASPortal*.
+- aas-server: The Node.js server app of *AASPortal*.
+- common: Types and functions used by aas-portal and aas-server.
 
 ## Prerequisites
 - Visual Studio Code
