@@ -1,5 +1,5 @@
 # Architecture and Design
-## Main
+## Main Package
 ![Main](./images/main.png "Main")
 
 ## aas-portal
