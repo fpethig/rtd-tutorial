@@ -40,82 +40,38 @@ A search within the structure of an AAS is started if the search text begins wit
    | SME          | SubmodelElement              |
    | View         | View                         |
 
-By using the logical operators :kbd:`||` and :kbd:`&&` several expressions can be combined in the search text.
+By using the logical operators `||` and / or `&&` several expressions can be combined in the search text.
 
-Examples
---------
-
+## Examples
 All AAS that contain at least one operation element:
 
-.. code-block:: console
+`#Opr`
 
-   #Opr
+All AAS that contain at least one submodel with the name *Nameplate*:
 
-All AAS that contain at least one submodel with the name :code:`Nameplate`:
+`#SM:Nameplate`
 
-.. code-block:: console
+All AAS that contain at least one property with the value *SmartFactoryOWL*:
 
-   #SM:Nameplate
+`#Prop=SmartFactoryOWL`
 
-All AAS that contain at least one property with the value :code:`SmartFactoryOWL`:
+All AAS that contain at least one property with the name *Producer* and the value *SmartFactoryOWL*:
 
-.. code-block:: console
+`#Prop:producer=SmartFactoryOWL`
 
-   #Prop=SmartFactoryOWL
+All AAS where *RotationSpeed* is greater or equal then *5000*:
 
-All AAS that contain at least one property with the name :code:`Producer` and the value :code:`SmartFactoryOWL`:
+`#Prop=RotationSpeed >= 5000`
 
-.. code-block:: console
+All AAS where *ProductionDate* is between *12/24/2022* and *12/31/2022*:
 
-   #Prop:producer=SmartFactoryOWL
+`#Prop=ProductionDate = 12/24/2022...12/31/2022`
 
-All AAS where :code:`RotationSpeed` is greater or equal then :code:`5000`:
+## Supported Endpoints
 
-.. code-block:: console
-
-   #Prop=RotationSpeed >= 5000
-
-All AAS where :code:`ProductionDate` is between :code:`12/24/2022` and :code:`12/31/2022`:
-
-.. code-block:: console
-
-   #Prop=ProductionDate = 12/24/2022...12/31/2022
-
-Endpoints
----------
-Known endpoints:
-
-.. code-block:: json
-   :caption: Supported Endpoints
-
-   {
-       "endpoints": [
-           {
-               "name": "KI-Reallabor",
-               "type": "AasxServer",
-               "address": "http://153.97.102.163:51310"
-           },
-           {
-               "name": "AASX Server",
-               "type": "AasxServer",
-               "address": "http://172.16.160.171:51310"
-           },
-           {
-               "name": "AAS Registry",
-               "type": "AASRegistry",
-               "address": "http://172.16.160.188:50000/registry/api/v1/registry/"
-           },
-           {
-               "name": "I4AAS Server",
-               "address": "opc.tcp://172.16.160.178:30001/I4AASServer"
-           },
-           {
-               "name": "I4AAS DzDemonstrator Server",
-               "address": "opc.tcp://172.16.160.171:30001/I4AASDzDemonstratorServer/"
-           },
-           {
-               "name": "Samples",
-               "address": "file:///samples"
-           }
-       ]
-   }
+| Endpoint       | Format                                                         |
+| -------------- | -------------------------------------------------------------- |
+| AASXServer     | [[http://<Host IP>:51310                                       |
+| AAS Registry   | [Asset](http://<Host IP>:50000/registry/api/v1/registry/)      |
+| OPC UA (I4AAS) | opc.tcp://172.16.160.178:30001/I4AASServer                     |
+| Files          | file:///samples                                                |
