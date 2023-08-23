@@ -14,11 +14,11 @@
 ```txt
 aasportal
   ├── projects
-  │     ├── aas-lib
-  │     │     └── package.json
   │     ├── aas-portal
   │     │     └── package.json
   │     ├── aas-server
+  │     │     └── package.json
+  │     ├── aas-lib
   │     │     └── package.json
   │     └── common
   │          └── package.json
