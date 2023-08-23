@@ -27,4 +27,4 @@ Architecture <architecture.md>
 :maxdepth: 3
 usage.md
 ```
-![https://fpethig-rtd-tutorial.readthedocs.io/en/latest/?badge=latest](https://readthedocs.org/projects/fpethig-rtd-tutorial/badge/?version=latest "Documentation Status")
+[![Documentation Status](https://readthedocs.org/projects/fpethig-rtd-tutorial/badge/?version=latest "Documentation Status")](https://fpethig-rtd-tutorial.readthedocs.io/en/latest/?badge=latest)
