@@ -73,5 +73,5 @@ All AAS where *ProductionDate* is between *12/24/2022* and *12/31/2022*:
 | -------------- | ---------------------------------------------------------------- |
 | AASXServer     | `http://<Host IP>:51310`                                         |
 | AAS Registry   | `http://<Host IP>:50000/registry/api/v1/registry/`               |
-| OPC UA (I4AAS) | `opc.tcp://172.16.160.178:30001/I4AASServer`                     |
+| OPC UA (I4AAS) | `opc.tcp://<Host IP>:30001/I4AASServer`                     |
 | Files          | `file:///samples`                                                |
