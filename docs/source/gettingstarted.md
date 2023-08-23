@@ -27,30 +27,21 @@ aasportal
 
 ```
 
-Setup Visual Studio Code
-------------------------
-The preferred development environment is Visual Studio Code.
-Clone *AASPortal*'s GIT repository. Open aasportal in Visual Studio Code. In a terminal window execute the the following commands:
+## Setup Visual Studio Code
+The preferred development environment is Visual Studio Code. Clone *AASPortal*'s GIT repository. Open aasportal in Visual Studio Code. In a terminal window execute the the following commands:
 
-.. code-block:: console
-   
-   npm install
+`npm install`
 
 and
 
-.. code-block:: console
-
-   npm run build -ws
+`npm run build -ws`
 
 restart Visual Studio Code.
 
-Start AASPortal
----------------
+## Start AASPortal
 The following command creates and executes a composed Docker image:
 
-.. code-block:: console
-   
-   npm run start
+`npm run start`
 
 Open one of the supported web browsers and go to the Web site:
 
