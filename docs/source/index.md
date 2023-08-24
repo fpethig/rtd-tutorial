@@ -23,7 +23,7 @@ Architecture <architecture.md>
 
 ```{toctree} 
 :hidden:
-:caption: Getting Started
+:caption: Usage
 :maxdepth: 3
 usage.md
 ```
